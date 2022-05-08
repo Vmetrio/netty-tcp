@@ -1,0 +1,144 @@
+2022-05-08 14:55:05 235  [main] INFO  org.netty.tcp.TcpApplication - Starting TcpApplication using Java 1.8.0_312 on 192.168.0.108 with PID 49963 (/Users/mengmeng/IdeaProjects/tcp/target/classes started by mengmeng in /Users/mengmeng/IdeaProjects/tcp)
+2022-05-08 14:55:05 237  [main] INFO  org.netty.tcp.TcpApplication - No active profile set, falling back to default profiles: default
+2022-05-08 14:55:06 578  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-05-08 14:55:06 581  [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-08 14:55:06 581  [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-08 14:55:06 581  [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-05-08 14:55:06 606  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-08 14:55:06 606  [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 352 ms
+2022-05-08 14:55:06 739  [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-05-08 14:55:06 747  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-08 14:55:06 752  [main] INFO  org.netty.tcp.TcpApplication - Started TcpApplication in 0.694 seconds (JVM running for 0.916)
+2022-05-08 14:55:06 752  [main] INFO  org.netty.tcp.server.TcpServer - 初始化 TCP server ...
+2022-05-08 14:55:06 796  [main] INFO  org.netty.tcp.server.TcpServer - tcpServer启动成功！开始监听端口：20000
+2022-05-08 14:55:16 11271 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 14:55:16 11272 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 成功建立连接,channelId：589ad9ed
+2022-05-08 14:55:23 17550 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 14:55:23 17550 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - channelId:589ad9ed
+2022-05-08 14:55:23 17550 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 收到消息:{
+    "code":"0000"
+}
+2022-05-08 14:55:29 23988 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 14:55:29 23989 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 开始连接
+2022-05-08 15:02:00 415216 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 15:02:00 415217 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - 成功建立连接,channelId：d0831cad
+2022-05-08 15:02:57 471781 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 15:02:57 471782 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - channelId:d0831cad
+2022-05-08 15:02:57 471782 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - 收到消息:{
+    "code":"0000"
+}
+2022-05-08 15:03:57 531791 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - 心跳事件时触发
+2022-05-08 15:03:57 531791 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - 发送心跳
+2022-05-08 15:04:57 591788 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - 心跳事件时触发
+2022-05-08 15:04:57 591789 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - 发送心跳
+2022-05-08 15:05:03 597984 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 15:05:03 597985 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - channelId:d0831cad
+2022-05-08 15:05:03 597985 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - 收到消息:{
+    "code":"0000"
+}
+2022-05-08 15:06:03 657991 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - 心跳事件时触发
+2022-05-08 15:06:03 657992 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - 发送心跳
+2022-05-08 15:07:03 717995 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - 心跳事件时触发
+2022-05-08 15:07:03 717996 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - 发送心跳
+2022-05-08 15:07:27 741956 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 15:07:27 741957 [nioEventLoopGroup-3-2] INFO  o.netty.tcp.handler.MessageHandler - 开始连接
+2022-05-08 15:11:35 230  [main] INFO  org.netty.tcp.TcpApplication - Starting TcpApplication using Java 1.8.0_312 on 192.168.0.108 with PID 50232 (/Users/mengmeng/IdeaProjects/tcp/target/classes started by mengmeng in /Users/mengmeng/IdeaProjects/tcp)
+2022-05-08 15:11:35 232  [main] INFO  org.netty.tcp.TcpApplication - No active profile set, falling back to default profiles: default
+2022-05-08 15:11:35 566  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-05-08 15:11:35 570  [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-08 15:11:35 570  [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-08 15:11:35 570  [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-05-08 15:11:35 600  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-08 15:11:35 600  [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 353 ms
+2022-05-08 15:11:35 725  [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-05-08 15:11:35 733  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-08 15:11:35 737  [main] INFO  org.netty.tcp.TcpApplication - Started TcpApplication in 0.68 seconds (JVM running for 0.882)
+2022-05-08 15:11:35 738  [main] INFO  org.netty.tcp.server.TcpServer - 初始化 TCP server ...
+2022-05-08 15:11:35 779  [main] INFO  org.netty.tcp.server.TcpServer - tcpServer启动成功！开始监听端口：20000
+2022-05-08 15:11:39 4484 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 15:11:39 4484 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 成功建立连接,channelId：ef6898f4
+2022-05-08 15:11:43 8817 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 15:11:43 8819 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - channelId:ef6898f4
+2022-05-08 15:11:43 8819 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 收到消息:{
+    "code":"0000"
+}
+2022-05-08 15:11:43 8819 [nioEventLoopGroup-3-1] INFO  org.netty.tcp.service.ApiService - data:{
+    "code":"0000"
+}
+2022-05-08 15:11:54 19460 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 15:11:54 19463 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 开始连接
+2022-05-08 15:13:36 243  [main] INFO  org.netty.tcp.TcpApplication - Starting TcpApplication using Java 1.8.0_312 on 192.168.0.108 with PID 50260 (/Users/mengmeng/IdeaProjects/tcp/target/classes started by mengmeng in /Users/mengmeng/IdeaProjects/tcp)
+2022-05-08 15:13:36 244  [main] INFO  org.netty.tcp.TcpApplication - No active profile set, falling back to default profiles: default
+2022-05-08 15:13:36 573  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-05-08 15:13:36 577  [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-08 15:13:36 577  [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-08 15:13:36 577  [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-05-08 15:13:36 600  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-08 15:13:36 601  [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 339 ms
+2022-05-08 15:13:37 742  [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-05-08 15:13:37 751  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-08 15:13:37 756  [main] INFO  org.netty.tcp.TcpApplication - Started TcpApplication in 0.691 seconds (JVM running for 0.909)
+2022-05-08 15:13:37 757  [main] INFO  org.netty.tcp.server.TcpServer - 初始化 TCP server ...
+2022-05-08 15:13:37 802  [main] INFO  org.netty.tcp.server.TcpServer - tcpServer启动成功！开始监听端口：20000
+2022-05-08 15:13:40 3926 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 15:13:40 3926 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 成功建立连接,channelId：c59cc8b1
+2022-05-08 15:13:42 5847 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 15:13:42 5848 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - channelId:c59cc8b1
+2022-05-08 15:13:42 5848 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 收到消息:{
+    "code":"0000"
+}
+2022-05-08 15:14:16 40165 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 15:14:16 40166 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - channelId:c59cc8b1
+2022-05-08 15:14:16 40166 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 收到消息:{
+    "code":"0000"
+}
+2022-05-08 15:14:18 42654 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 15:14:18 42655 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - channelId:c59cc8b1
+2022-05-08 15:14:18 42655 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 收到消息:{
+    "code":"0000"
+}
+2022-05-08 15:14:33 57072 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 15:14:33 57072 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 开始连接
+2022-05-08 15:14:35 232  [main] INFO  org.netty.tcp.TcpApplication - Starting TcpApplication using Java 1.8.0_312 on 192.168.0.108 with PID 50280 (/Users/mengmeng/IdeaProjects/tcp/target/classes started by mengmeng in /Users/mengmeng/IdeaProjects/tcp)
+2022-05-08 15:14:35 233  [main] INFO  org.netty.tcp.TcpApplication - No active profile set, falling back to default profiles: default
+2022-05-08 15:14:35 556  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-05-08 15:14:35 560  [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-08 15:14:35 560  [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-08 15:14:35 560  [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-05-08 15:14:35 585  [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-08 15:14:35 585  [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 336 ms
+2022-05-08 15:14:35 716  [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-05-08 15:14:35 724  [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-08 15:14:35 729  [main] INFO  org.netty.tcp.TcpApplication - Started TcpApplication in 0.671 seconds (JVM running for 0.881)
+2022-05-08 15:14:35 730  [main] INFO  org.netty.tcp.server.TcpServer - 初始化 TCP server ...
+2022-05-08 15:14:36 772  [main] INFO  org.netty.tcp.server.TcpServer - tcpServer启动成功！开始监听端口：20000
+2022-05-08 15:14:39 3854 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 15:14:39 3855 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 成功建立连接,channelId：819a1851
+2022-05-08 15:14:40 5116 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 15:14:40 5116 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - channelId:819a1851
+2022-05-08 15:14:40 5116 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 收到消息:{
+    "code":"0000"
+}
+2022-05-08 15:14:40 5117 [nioEventLoopGroup-3-1] INFO  org.netty.tcp.service.ApiService - data:{
+    "code":"0000"
+}
+2022-05-08 15:14:44 9001 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 
+
+2022-05-08 15:14:44 9001 [nioEventLoopGroup-3-1] INFO  o.netty.tcp.handler.MessageHandler - 开始连接

@@ -36,7 +36,7 @@ public class MessageHandler extends SimpleChannelInboundHandler<String> {
 	@Override
 	public void channelInactive(ChannelHandlerContext ctx) {
 		log.info("\n");
-		log.info("开始连接");
+		log.info("成功关闭连接,channelId：{}", ctx.channel().id());
 	}
 
 	@Override
